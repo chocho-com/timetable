@@ -1,0 +1,96 @@
+/*自定义内边距*/
+
+/* 内边距 */
+.cho-padded-mini {
+    padding: 0.2em !important;
+}
+
+.cho-padded-tiny {
+    padding: 0.3em !important;
+}
+
+.cho-padded {
+    padding: 1em !important;
+}
+
+/* 上下内边距 */
+.cho-padded-tb-mini {
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
+.cho-padded-tb-tiny {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+
+.cho-padded-tb-small {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+.cho-padded-tb {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+
+.cho-padded-tb-large {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.cho-padded-tb-big {
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.cho-padded-tb-huge {
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+
+.cho-padded-tb-max {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+/* 左右边距 */
+.cho-padded-lr {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.cho-padded-lr-large {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+
+.cho-padded-lr-big {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+
+/*外边距*/
+/* 上下外边距 */
+.cho-margin-tb-tiny {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+.cho-margin-tb-large {
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
+/* 下外边距 */
+.cho-margin-bottom-mini {
+    margin-bottom: 0.2em !important;
+}
+
+.cho-margin-bottom-small {
+    margin-bottom: 0.5em !important;
+}
+/* 左右外边距 */
+.cho-padded-lr-responsive {
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}

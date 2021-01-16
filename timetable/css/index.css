@@ -1,0 +1,17 @@
+/* 设置时钟 */
+.time{
+	background-color: #bfa;
+	width: 800px;
+	height: 150px;
+	/* 居中 */
+	margin: 0 auto;
+	border-radius: 5%;
+	
+}
+
+/* 去除高度坍塌 */
+.clearfix:after, .clearfix::before{
+	content: '';
+	display: table;
+	clear: both;
+}

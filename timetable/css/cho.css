@@ -1,0 +1,118 @@
+/* 设置body */
+body {
+	background: url(../img/bg.jpg) no-repeat;
+}
+
+
+
+/*字体*/
+.cho-text-thin {
+    font-weight: 300 !important;
+}
+
+.cho-text-spaced {
+    letter-spacing: 1px !important;
+}
+
+.cho-text-lined {
+    line-height: 1.8 !important;
+}
+
+.cho-opacity-mini {
+    opacity: 0.8 !important;
+}
+
+.cho-opacity-tiny {
+    opacity: 0.6 !important;
+}
+
+.cho-text {
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important;
+}
+
+.cho-black {
+    color: #333 !important;
+}
+
+.cho-white {
+    color: #FFFFFF !important;
+}
+
+/*display*/
+.cho-inline-block {
+    display: inline-block !important;
+}
+
+/*container*/
+.cho-container {
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+.cho-container-small {
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+.cho-container-mini{
+	max-width: 38em !important;
+	margin: auto !important;
+}
+
+/*position*/
+.cho-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cho-fixed {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.cho-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*shadow*/
+.cho-shadow-small {
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.cho-mobile-show {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    /*移动端隐藏*/
+    .cho-mobile-hide {
+        display: none !important;
+    }
+
+    /*移动端显示*/
+    .cho-mobile-show {
+        display: block !important;
+    }
+
+    /*去掉多余间距*/
+    .cho-padded-lr-responsive {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .cho-mobile-wide {
+        width: 100% !important;
+    }
+
+    .cho-mobile-lr-clear {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
